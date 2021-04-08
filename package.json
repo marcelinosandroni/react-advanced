@@ -11,10 +11,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn lint --fix"
-    ],
-    "*.js": "eslint --cache --fix"
+    "*.js": "yarn lint --fix"
   },
   "dependencies": {
     "next": "10.1.3",
