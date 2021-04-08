@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
-    "postinstall": "husky install",
-    "prepare": "husky install"
+    "lint": "eslint src --max-warnings=0"
   },
   "husky": {
     "hooks": {
