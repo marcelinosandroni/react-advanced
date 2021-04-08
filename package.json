@@ -10,6 +10,11 @@
     "postinstall": "husky install",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.js": [
       "yarn lint --fix",
