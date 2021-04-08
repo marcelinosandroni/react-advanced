@@ -14,10 +14,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn lint --fix",
-      "eslint --cache --fix"
-    ]
+    "src/**/*": [ "yarn lint --fix" ]
   },
   "dependencies": {
     "next": "10.1.3",
